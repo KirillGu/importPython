@@ -1,7 +1,7 @@
 import datetime
 import time
-import salary
-import people
+from application import salary
+from application.db import people
 
 DateToday = datetime.datetime.today().strftime("%d-%m-%Y")
 TimeNow = time.strftime("%H.%M.%S")
